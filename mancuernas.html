@@ -4,25 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Set de mancuernas</title>
     <link rel="stylesheet" href="css/estilo-prod.css">
+    <link rel="stylesheet" href="css/encabezado.css">
+    <link rel="stylesheet" href="css/buscador.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/general.css">
+    <script src="https://kit.fontawesome.com/0202f72d8c.js" crossorigin="anonymous"></script>
+    <title>Set de mancuernas</title>
 </head>
 
 <body>
-    <nav id="menu">
-        <ul>
-            <li><a href="">INICIO</a></li>
-            <li><a href="">PRODUCTOS</a>
-                <ul id="submenu">
-                    <li><a href="#suplementos">Suplementos</a></li>
-                    <li><a href="#equipos">Equipos</a></li>
-                    <li><a href="#ropa">Ropa</a></li>
-                </ul>
-            </li>
-            <li><a href="">SERVICIOS</a></li>
-            <li><a href="">CONTACTO</a></li>
-        </ul>
-    </nav>
+
+    <header id="encabezado">
+
+        <div class="logo-buscador">
+
+        <img class="logo" src="img/logo_1.png" alt="logo">
+
+        <div class="buscador">
+            <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
+
+            <!-- <ul id="lista-articulos">
+                <li class="articulo"><a href="productos.html">Productos</a></li>
+                <li class="articulo"><a href="servicios.html">Servicios</a></li>
+            </ul> -->
+
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        </div>
+
+
+        <nav class="navegacion">
+            <menu class="menu">
+
+                <li><a href="index.html">Inicio</a></li>
+
+                <li><a href="productos.html">Productos</a>
+                    <ul class="submenu">
+                        <li><a href="">Ropa</a></li>
+                        <li><a href="">Suplemento</a></li>
+                        <li><a href="">Maquinaria</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="servicios.html">Servicios</a></li>
+
+                <li><a href="contactos.html">Contactos</a></li>
+
+            </menu>
+        </nav>
+
+    </header>
+
     <main>
         <section class="descr">
             <article id="imagenventa">
@@ -78,11 +111,42 @@
             </article>
         </section>
     </main>
-    <footer>
-        <p>CONTACTO</p>
-        <hr>
-        <p>Gym infinity 2024 © Todos los derechos reservados</p>
+
+    <footer class="pie">
+    
+        <section class="paginas">
+            <h3>Páginas</h3>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contactos.html">Acerca de</a></li>
+            </ul>
+        </section>
+
+        <section class="contactos">
+            <h3>Contacto</h3>
+            <ul>
+                <li>calle jacinta</li>
+                <li>pais luffy</li>
+                <li><a href="">telefono</a></li>
+                <li><a href="">gmail</a></li>
+            </ul>
+        </section>
+
+        <section class="redes">
+            <h3>Redes Sociales</h3>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">X</a></li>
+            </ul>
+        </section>
+
+        <p class="derechos">Gym infinity 2024 © Todos los derechos reservados</p>
+
     </footer>
+
 </body>
 
 </html>
