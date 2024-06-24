@@ -72,19 +72,19 @@
 }
 
 .primero{
-    background-image: url(/img/banner1.jpg);
+    background-image: url(/img/Inicio/banner1.jpg);
     background-size: cover;    
     background-position: center center;
 }
 
 .segundo{
-    background-image: url(/img/banner2.jpg);
+    background-image: url(/img/Inicio/banner2.jpg);
     background-size: cover;    
     background-position: center center;
 }
 
 .tercero{
-    background-image: url(/img/banner3.jpg);
+    background-image: url(/img/Inicio/banner3.jpg);
     background-size: cover;    
     background-position: center center;
 }
