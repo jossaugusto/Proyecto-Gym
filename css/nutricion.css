@@ -1,0 +1,120 @@
+ body {
+    background-color: #000000e7;
+ }
+
+ #main-nutricion {
+    margin-bottom: 45px;
+ }
+
+ .fotos {
+    display: flex;
+    width: 100%;
+    height: 560px;
+    padding-top: 100px;
+ }
+
+ .fotos img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 1.5s ease;
+ }
+
+ .fotos img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+ }
+
+ h2 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellow;
+ }
+
+ span {
+    color: rgb(74, 74, 235);
+ }
+
+ .cartas {
+    display: flex;
+    justify-content: center;
+ }
+
+ .card {
+    position: relative;
+    width: 370px;
+    height: 390px;
+    display: inline-block;
+    margin: 33px;
+ }
+
+ .card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+ }
+
+ .card .front {
+    transform: perspective(600px)rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+ }
+
+ .card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .card .front h3 {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 4);
+    text-align: center;
+ }
+
+ .card .back {
+    transform: perspective(600px)rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 35px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+ }
+
+ .card .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+
+ }
+
+ .card .back p {
+    letter-spacing: 1px;
+    padding: 30px;
+    font-size: 20px;
+
+ }
+
+ .card:hover .front {
+    transform: perspective(600px)rotateY(180deg);
+ }
+
+ .card:hover .back {
+    transform: perspective(600px)rotateY(360deg);
+ }

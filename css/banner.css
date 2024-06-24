@@ -1,0 +1,126 @@
+#banner{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.2;
+    mix-blend-mode: overlay;
+}
+
+.slider input{
+    visibility: hidden;
+    display: none;
+}
+
+.buttons{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 50px;
+    gap: 10px;
+}
+
+.buttons label{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    opacity: 0.5;
+    cursor: pointer;
+    z-index: 1;
+    transition: 300ms ease-in-out;
+}
+
+.buttons label:hover{
+    scale: 1.2;
+    opacity: 1;
+}
+
+.slider input:nth-child(1):checked ~ .buttons label:nth-child(1),
+.slider input:nth-child(2):checked ~ .buttons label:nth-child(2),
+.slider input:nth-child(3):checked ~ .buttons label:nth-child(3){
+    opacity: 1;
+    scale: 1.2;
+    width: 40px;
+}
+
+.contenido{
+    position: relative;
+    width: 300vw;
+    height: 700px;
+    display: flex;
+    transition: 400ms ease-in-out;
+}
+
+.primero, .segundo, .tercero{
+    position: relative;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primero{
+    background-image: url(/img/banner1.jpg);
+    background-size: cover;    
+    background-position: center center;
+}
+
+.segundo{
+    background-image: url(/img/banner2.jpg);
+    background-size: cover;    
+    background-position: center center;
+}
+
+.tercero{
+    background-image: url(/img/banner3.jpg);
+    background-size: cover;    
+    background-position: center center;
+}
+
+.slider input:nth-child(1):checked ~ .contenido{
+    left: 0;
+}
+
+.slider input:nth-child(2):checked ~ .contenido{
+    left: -100vw;
+}
+
+.slider input:nth-child(3):checked ~ .contenido{
+    left: -200vw;
+}
+
+.contenido .primero p{
+    font-size: 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+.contenido .segundo p{
+    font-size: 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: blueviolet;
+}
+
+.contenido .tercero p{
+    font-size: 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: cyan;
+}

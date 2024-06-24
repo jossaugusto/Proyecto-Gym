@@ -1,0 +1,86 @@
+#main{
+    display: grid;
+    gap: 100px;
+    margin: 70px 0;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 90px 1fr;
+    gap: 30px;
+}
+
+.subtitulo{
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 50px;
+}
+
+.productos figure{
+    height: 100%;
+}
+
+.productos img{
+    width: 100%;
+    height: 300px;
+}
+
+.productos .texto-productos{
+    text-align: center;
+    font-size: 40px;
+}
+
+.informacion{
+    background-color: black;
+    display: flex;
+    gap: 20px;
+}
+
+.informacion img{
+    width: 50%;
+}
+
+
+.informacion .texto{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.informacion .texto h3{
+    color: rgb(231, 211, 211);
+    font-size: 50px;
+}
+
+.informacion .texto p{
+    color: white;
+    font-size: 30px;
+}
+
+
+.acercade{
+    background-color: black;
+    display: flex;
+    gap: 20px;
+}
+
+.acercade .texto{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.acercade .texto h3{
+    color: rgb(231, 211, 211);
+    font-size: 50px;
+}
+
+.acercade .texto p{
+    color: white;
+    font-size: 30px;
+}
+
+.acercade img{
+    width: 50%;
+}

@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main-contactos{
+    background-image: url(/img/fondo-contacto.jpg);
+    background-size: cover;    
+    background-position: center center;
+    width: 100%;
+    height: 54.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    position: relative;
+}
+
+#main-contactos h1{
+    margin-top: 65px;
+    color: whitesmoke;
+    font-size: 70px;
+    z-index: 1;
+}
+
+.informacion{
+    color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    z-index: 1;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.datos p i{
+    color: blue;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.redes-sociales{
+    display: flex;
+    gap: 15px;
+}
+
+.redes-sociales a{
+    width: 35px;
+    height: 35px;
+    background: white;
+    text-align: center;
+    transition: .1s;
+    border-radius: 50%;
+}
+
+.redes-sociales a i{
+    color: darkblue;
+    line-height: 35px;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    z-index: 1;
+}
+
+.formularios input{
+    color: whitesmoke;
+    width: 100%;
+    height: 25px;
+    padding: 0 10px;
+    background: rgba(184, 182, 255, 0.1);
+    border: 3px solid transparent;
+    letter-spacing: 2px;
+    transition: .2s;
+    outline: none;
+}
+
+.formularios input::placeholder{
+    color: whitesmoke;
+}
+
+.formularios input:focus::placeholder{
+    color: transparent;
+}
+
+.formularios textarea::placeholder{
+    color: whitesmoke;
+}
+
+.formularios textarea:focus::placeholder{
+    color: transparent;
+}
+
+.formularios input:focus{
+    border-bottom: 2px solid red;
+}
+
+.formularios textarea:focus{
+    border-bottom: 2px solid red;
+}
+
+.formularios textarea{
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    background: rgba(255 255 255/.1);
+    border: 3px solid transparent;  
+    letter-spacing: 1px; 
+    outline: none;
+    transition: .3s;
+    color: whitesmoke;
+}
+
+.formularios{
+    position: relative;
+}
+
+.formularios i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: rgba(154, 30, 30, 0.8);
+    transition: .3s;
+}
+
+.formularios input:focus ~ i{
+    color: whitesmoke
+}
+
+form button{
+    width: 100%;
+    padding: 10px;
+    outline: 2px solid white;
+    background: black;
+    color: whitesmoke;
+    border: none;
+    transition: .1s;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover{
+    background: rgba(154, 30, 30, 0.8);
+}
+
+.redes-sociales a:hover{
+    background: rgba(154, 30, 30, 0.8);
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(30, 27, 27, 0.8));
+}
