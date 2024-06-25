@@ -16,185 +16,110 @@
 
 <body>
 
-        <header id="encabezado">
+    <header id="encabezado">
+    </header>
 
-            <div class="logo-buscador">
+    <article id="banner">
 
-            <img class="logo" src="img/Inicio/logo_1.png" alt="logo">
-    
-            <div class="buscador">
-                <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
+        <div class="slider">
 
-                <!-- <ul id="lista-articulos">
-                    <li class="articulo"><a href="productos.html">Productos</a></li>
-                    <li class="articulo"><a href="servicios.html">Servicios</a></li>
-                </ul> -->
+            <input type="radio" name="slider" id="slideOne" checked>
+            <input type="radio" name="slider" id="slideTwo">
+            <input type="radio" name="slider" id="slideThree">
 
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div class="buttons">
+                <label for="slideOne"></label>
+                <label for="slideTwo"></label>
+                <label for="slideThree"></label>
             </div>
-            </div>
 
-
-            <nav class="navegacion">
-                <menu class="menu">
-
-                    <li><a href="index.html">Inicio</a></li>
-
-                    <li><a href="productos.html">Productos</a>
-                        <ul class="submenu">
-                            <li><a href="">Ropa</a></li>
-                            <li><a href="">Suplemento</a></li>
-                            <li><a href="">Maquinaria</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="servicios.html">Servicios</a></li>
-
-                    <li><a href="contactos.html">Contactos</a></li>
-
-                </menu>
-            </nav>
-    
-        </header>
-    
-        <article id="banner">
-    
-            <div class="slider">
-                
-                <input type="radio" name="slider" id="slideOne" checked>
-                <input type="radio" name="slider" id="slideTwo">
-                <input type="radio" name="slider" id="slideThree">
-
-                <div class="buttons">
-                    <label for="slideOne"></label>
-                    <label for="slideTwo"></label>
-                    <label for="slideThree"></label>
+            <div class="contenido">
+                <div class="primero">
+                    <p>"No mires los resultados, concéntrate en el proceso".</p>
                 </div>
-
-                <div class="contenido">
-                    <div class="primero">
-                        <p>"No mires los resultados, concéntrate en el proceso".</p>
-                    </div>
-                    <div class="segundo">
-                        <p>"Comienza donde estés, usa lo que tienes, haz lo que puedas".</p>
-                    </div>
-                    <div class="tercero">
-                        <p>"La diferencia entre lo imposible y lo posible está en tu determinación".</p>
-                    </div>
+                <div class="segundo">
+                    <p>"Comienza donde estés, usa lo que tienes, haz lo que puedas".</p>
                 </div>
-
+                <div class="tercero">
+                    <p>"La diferencia entre lo imposible y lo posible está en tu determinación".</p>
+                </div>
             </div>
 
-            <div class="capa"></div>
-    
+        </div>
+
+        <div class="capa"></div>
+
+    </article>
+
+    <main id="main">
+
+        <article class="informacion">
+
+            <img src="img/Inicio/info.png" alt="info">
+
+            <div class="texto">
+                <h3>Titulo</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit fuga ipsa, nisi harum, animi, odit
+                    omnis deserunt sed deleniti alias nemo. Sint maiores doloremque atque, mollitia in libero autem
+                    inventore.
+                </p>
+            </div>
+
         </article>
-        
-        <main id="main">
-    
-            <article class="informacion">
-    
-                <img src="img/Inicio/info.png" alt="info">
-    
-                <div class="texto">
-                    <h3>Titulo</h3>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit fuga ipsa, nisi harum, animi, odit
-                        omnis deserunt sed deleniti alias nemo. Sint maiores doloremque atque, mollitia in libero autem
-                        inventore.
-                    </p>
-                </div>
-    
-            </article>
-    
-    
-            <section class="cards">
-    
-                <h2 class="subtitulo">
-                    Brindamos en GYM INFINITY:
-                </h2>
-    
-                <article class="productos">
-                    <figure>
-                        <img src="img/Inicio/ropa-info.jpg" alt="">
-                        <figcaption class="texto-productos">Ropa</figcaption>
-                    </figure>
-                </article>
 
-                <article class="productos">
-                    <figure>
-                        <img src="img/Inicio/suplemeto-discriptivojpg.jpg" alt="">
-                        <figcaption class="texto-productos">Suplementos</figcaption>
-                    </figure>
-                </article>
-                
-                <article class="productos">
-                    <figure>
-                        <img src="img/Inicio/equipo-info.jpg" alt="">
-                        <figcaption class="texto-productos">Maquinaria</figcaption>
-                    </figure>
-                </article>
 
-                <article class="productos">
-                    <figure>
-                        <img src="img/Inicio/servicios-info.jpg" alt="">
-                        <figcaption class="texto-productos">Servicios</figcaption>
-                    </figure>
-                </article>
-    
-            </section>
-    
-            <article class="acercade">
-    
-                <div class="texto">
-                    <h3>Nosotros</h3>
-                    <p>
-                        En Gym Infinity, nos dedicamos a ayudarte a alcanzar tus objetivos de fitness y bienestar de manera
-                        efectiva y sostenible. Ofrecemos una gama completa de servicios y productos diseñados para apoyar
-                        cada
-                        aspecto de tu viaje hacia una vida más saludable y activa.
-                    </p>
-                </div>
-    
-                <img src="img/Inicio/descripcion.jpg" alt="">
-    
+        <section class="cards">
+
+            <h2 class="subtitulo">
+                Brindamos en GYM INFINITY:
+            </h2>
+
+            <article class="productos">
+                <figure>
+                    <img src="img/Inicio/suplemeto-discriptivojpg.jpg" alt="">
+                    <figcaption class="texto-productos">Suplementos</figcaption>
+                </figure>
             </article>
-        </main>
-    
-        <footer class="pie">
-    
-            <section class="paginas">
-                <h3>Páginas</h3>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="contactos.html">Acerca de</a></li>
-                </ul>
-            </section>
-    
-            <section class="contactos">
-                <h3>Contacto</h3>
-                <ul>
-                    <li>calle jacinta</li>
-                    <li>pais luffy</li>
-                    <li><a href="">telefono</a></li>
-                    <li><a href="">gmail</a></li>
-                </ul>
-            </section>
-    
-            <section class="redes">
-                <h3>Redes Sociales</h3>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">X</a></li>
-                </ul>
-            </section>
-    
-            <p class="derechos">Gym infinity 2024 © Todos los derechos reservados</p>
-    
-        </footer>
-         
+
+            <article class="productos">
+                <figure>
+                    <img src="img/Inicio/equipo-info.jpg" alt="">
+                    <figcaption class="texto-productos">Maquinaria</figcaption>
+                </figure>
+            </article>
+
+            <article class="productos">
+                <figure>
+                    <img src="img/Inicio/servicios-info.jpg" alt="">
+                    <figcaption class="texto-productos">Servicios</figcaption>
+                </figure>
+            </article>
+
+        </section>
+
+        <article class="acercade">
+
+            <div class="texto">
+                <h3>Nosotros</h3>
+                <p>
+                    En Gym Infinity, nos dedicamos a ayudarte a alcanzar tus objetivos de fitness y bienestar de manera
+                    efectiva y sostenible. Ofrecemos una gama completa de servicios y productos diseñados para apoyar
+                    cada
+                    aspecto de tu viaje hacia una vida más saludable y activa.
+                </p>
+            </div>
+
+            <img src="img/Inicio/descripcion.jpg" alt="">
+
+        </article>
+    </main>
+
+    <footer id="pie">
+    </footer>
+
+    <script src="js/header.js"></script>
+
 </body>
 
 </html>

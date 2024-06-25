@@ -1,4 +1,4 @@
-.pie{
+#pie{
     background-color: gray;
     text-align: center;
     color: white;
@@ -6,44 +6,44 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr auto;
-    grid-template-areas: 
+    grid-template-areas:
     "paginas contactos redes"
     "derechos derechos derechos";
 }
 
-.pie .paginas{
+#pie .paginas{
     grid-area: paginas;
 }
 
-.pie .contactos{
+#pie .contactos{
     grid-area: contactos;
 }
 
-.pie .redes{
+#pie .redes{
     grid-area: redes;
 }
 
-.pie .derechos{
+#pie .derechos{
     grid-area: derechos;
 }
 
 
-.pie h3{
+#pie h3{
     margin: 10px;
     color: black;
 }
 
-.pie li{
+#pie li{
     margin: 5px;
     list-style: none;
 }
 
-.pie li a{
+#pie li a{
     text-decoration: none;
     color: white;
 }
 
-.pie p{
+#pie p{
     background-color: black;
 }
 
