@@ -1,40 +1,48 @@
 #pie{
     background-color: gray;
-    text-align: center;
     color: white;
-    padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr auto;
     grid-template-areas:
     "paginas contactos redes"
     "derechos derechos derechos";
+    justify-items: center;
 }
 
-#pie .paginas{
+.paginas{
     grid-area: paginas;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
-#pie .contactos{
+.contactos{
     grid-area: contactos;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
-#pie .redes{
+.redes{
     grid-area: redes;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
-#pie .derechos{
+.derechos{
     grid-area: derechos;
+    text-align: center;
+    border-top: 3px solid white;
+    justify-self: normal;
 }
 
 
 #pie h3{
-    margin: 10px;
-    color: black;
+    font-size: 25px;
+    color: white;
 }
 
 #pie li{
-    margin: 5px;
+    margin: 10px;
     list-style: none;
 }
 
@@ -47,3 +55,6 @@
     background-color: black;
 }
 
+.redes i{
+    margin-right: 10px;
+}

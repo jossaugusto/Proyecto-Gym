@@ -14,7 +14,6 @@
     height: 100%;
     background-color: black;
     opacity: 0.2;
-    mix-blend-mode: overlay;
 }
 
 .slider input{
@@ -84,7 +83,7 @@
 }
 
 .tercero{
-    background-image: url(/img/Inicio/banner3.jpg);
+    background: url(/img/Inicio/banner3.jpg);
     background-size: cover;    
     background-position: center center;
 }
@@ -102,11 +101,15 @@
 }
 
 .contenido .primero p{
-    font-size: 5rem;
+    font-size: 6rem;
+    display: block;
+    width: 500px;
+    height: 550px;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50px;
     color: white;
+    font-style: oblique;
 }
 
 .contenido .segundo p{
@@ -114,7 +117,15 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: blueviolet;
+    color: white;
+    text-align: right;
+    display: block;
+    background-color: rgba(125, 39, 205, 0.450);
+    padding-right: 40px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-style: oblique;
 }
 
 .contenido .tercero p{
@@ -122,5 +133,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: cyan;
+    color: rgb(225, 54, 185);
+    font-style: oblique;
+
 }

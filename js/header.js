@@ -15,8 +15,8 @@ header.innerHTML = `
         <li><a href="index.html">Inicio</a></li>
         <li><a href="productos.html">Productos</a>
             <ul class="submenu">
-                <li><a href="">Suplemento</a></li>
-                <li><a href="">Maquinaria</a></li>
+                <li><a href="productos.html#comprar-suplementos">Suplemento</a></li>
+                <li><a href="productos.html#maquinaria">Maquinaria</a></li>
             </ul>
         </li>
         <li><a href="servicios.html">Servicios</a></li>
@@ -32,27 +32,25 @@ footer.innerHTML = `
 <section class="paginas">
     <h3>Páginas</h3>
     <ul>
-        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html#inicio">Inicio</a></li>
         <li><a href="productos.html">Productos</a></li>
         <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="contactos.html">Acerca de</a></li>
     </ul>
 </section>
 <section class="contactos">
     <h3>Contacto</h3>
     <ul>
-        <li>calle jacinta</li>
-        <li>One Piece</li>
-        <li><a href="">telefono</a></li>
-        <li><a href="">gmail</a></li>
+        <li>+51 980 556 048</li>
+        <li>Gym-Infinity@gmail.com</li>
+        <li><a href="">Av Mariscal Caceres 5496</a></li>
     </ul>
 </section>
 <section class="redes">
     <h3>Redes Sociales</h3>
     <ul>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">X</a></li>
+        <li><a href="https://facebook.com"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+        <li><a href="https://Instagram.com"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+        <li><a href="https://x.com"><i class="fa-brands fa-x-twitter"></i>Twitter</a></li>
     </ul>
 </section>
 

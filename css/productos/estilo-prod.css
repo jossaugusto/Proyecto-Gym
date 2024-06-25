@@ -2,6 +2,18 @@ main img{
     width: 100%;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+body{
+    background-image: url(/img/fondo-blanco-abstracto.jpg);
+    padding-top: 90px;
+}
+
 #suplementos{
     display: flex;
     justify-content: space-evenly;

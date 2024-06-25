@@ -16,7 +16,31 @@
     grid-column: 1 / -1;
     text-align: center;
     font-size: 50px;
+    color: whitesmoke;
 }
+
+.subtitulo .ofrecemos{
+    color: cyan;
+    font-size: 60px;
+}
+
+.productos a{
+    color: cyan;
+    text-decoration: none;
+    background-color: black;
+    outline: 2px solid white;
+    padding: 10px;
+}
+
+.productos a:hover{
+    color: gray;
+}
+
+.productos a:active{
+    color: green;
+}
+
+
 
 .productos figure{
     height: 100%;
@@ -33,7 +57,7 @@
 }
 
 .informacion{
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     display: flex;
     gap: 20px;
 }
@@ -45,41 +69,43 @@
 
 .informacion .texto{
     width: 50%;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
 }
 
 .informacion .texto h3{
-    color: rgb(231, 211, 211);
-    font-size: 50px;
+    color: cyan;
+    font-size: 41px;
+    margin-bottom: 25px;
 }
 
 .informacion .texto p{
-    color: white;
-    font-size: 30px;
+    color: yellow;
+    font-size: 35px;
 }
 
 
 .acercade{
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     display: flex;
     gap: 20px;
 }
 
 .acercade .texto{
     width: 50%;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
 }
 
 .acercade .texto h3{
     color: rgb(231, 211, 211);
-    font-size: 50px;
+    font-size: 70px;
+    margin-bottom: 25px;
 }
 
 .acercade .texto p{
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .acercade img{
