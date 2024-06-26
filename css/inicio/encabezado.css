@@ -1,26 +1,26 @@
-#encabezado{
+#encabezado {
     height: 50px;
     position: fixed;
     top: 0px;
     display: flex;
     justify-content: space-between;
     z-index: 1;
-    background-color:  rgba(0, 0, 0, 0.535);
+    background-color: rgba(0, 0, 0, 0.535);
 }
 
-.logo-buscador{
+.logo-buscador {
     display: flex;
     gap: 40px;
     width: 100%;
     align-items: center;
 }
 
-.logo{
+.logo {
     margin-left: 15px;
     width: 14%;
 }
 
-.navegacion{
+.navegacion {
     width: 30%;
     background-color: #000000cc;
     display: flex;
@@ -29,43 +29,44 @@
     padding: 10px;
 }
 
-.menu{
+.menu {
     position: relative;
     display: flex;
 }
 
-.menu li{
+.menu li {
     width: 100px;
     text-align: center;
     list-style: none;
 }
 
-.menu li a{
+.menu li a {
     color: white;
     text-decoration: none;
 }
 
-.submenu{
+
+.submenu {
     position: absolute;
     display: none;
 }
 
-.submenu li{
+.submenu li {
     margin: 10px;
     text-align: left;
 }
 
-.menu > li:hover{
+.menu>li:hover {
     background-color: white;
-    
+
 }
 
 
-.menu li:hover > a{
+.menu li:hover>a {
     color: blueviolet;
 }
 
-.menu li:hover .submenu{
+.menu li:hover .submenu {
     display: block;
     background-color: #000000cc;
 }
