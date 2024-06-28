@@ -1,21 +1,16 @@
-const header = document.querySelector("header");
-const footer = document.querySelector("footer");
+let header = document.getElementById("encabezado");
+let footer = document.getElementById("pie");
 
-header.innerHTML = `
+encabezado.innerHTML = `
 
-<div class="logo-buscador">
-    <img class="logo" src="img/Inicio/logo_1.png" alt="logo">
-    <div class="buscador">
-        <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
-        <button><i class="fa-solid fa-magnifying-glass"></i></button>
-    </div>
-</div>
+<img class="logo" src="img/Inicio/logo_1.png" alt="logo">
+
 <nav class="navegacion">
     <menu class="menu">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="productos.html">Productos</a>
             <ul class="submenu">
-                <li><a href="productos.html#comprar-suplementos">Suplemento</a></li>
+                <li><a href="productos.html#comprar-suplementos">Suplementos</a></li>
                 <li><a href="productos.html#maquinaria">Maquinaria</a></li>
             </ul>
         </li>
@@ -27,7 +22,7 @@ header.innerHTML = `
 `;
 
 
-footer.innerHTML = `
+pie.innerHTML = `
 
 <section class="paginas">
     <h3>Páginas</h3>
